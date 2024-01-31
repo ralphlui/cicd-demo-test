@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>sg.edu.nus.iss</groupId>
-	<artifactId>cicd-demo</artifactId>
+	<artifactId>cicd-demo-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cicd-demo</name>
 	<description>CICD Demo project for Spring Boot</description>
