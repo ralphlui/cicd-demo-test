@@ -1,5 +1,5 @@
 # Use a Java base image
-FROM openjdk:17-oracle
+FROM openjdk:17
 # Set the working directory to /app
 WORKDIR /app
 # Copy the Spring Boot application JAR file into the Docker image
