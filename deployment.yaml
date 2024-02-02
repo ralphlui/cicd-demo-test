@@ -17,7 +17,7 @@ spec:
           image: public.ecr.aws/s6y5a7e8/voucher-app:v10
           imagePullPolicy: IfNotPresent
           ports:
-            containerPort: 8080
+            - containerPort: 8080
 
 ---
 apiVersion: v1
