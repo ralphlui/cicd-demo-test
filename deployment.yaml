@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spring-boot-k8s-deployment
+  name: cicd-demo-test-app
 spec:
   replicas: 1
   selector:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cicd-demo-test-ap
-          image: public.ecr.aws/s6y5a7e8/voucher-app:VERSION
+          image: public.ecr.aws/s6y5a7e8/voucher-app:v12
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
