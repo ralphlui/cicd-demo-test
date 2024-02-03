@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cicd-demo-test-ap
-          image: public.ecr.aws/s6y5a7e8/voucher-app:v12
+          image: public.ecr.aws/s6y5a7e8/voucher-app:VERSION
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
